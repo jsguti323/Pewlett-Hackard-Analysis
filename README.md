@@ -1,6 +1,7 @@
 # Pewlett-Hackard-Analysis
 ## Overview
-The purpose of this analysis was to help prepare our partner for all of the employees they have that are approaching retirement. We created a table for them that showed an estimation of how many employees were retiring based on their birthdays, as well as what their titles currently are in the company. Also, we prepared a table for them showing them all employees nearing retirement that could be consodered for their mentorship program,
+Pwelett-Hackard has several employees they have that are approaching retirement. We have created a table for them that shows an estimation of how many employees are retiring based on their birthdays, as well as what their titles currently are in the company. Also, we prepared a table for them showing them all employees nearing retirement that could be consodered for their mentorship program.
+
 ## Results
 ![mentorship_eligibilty](https://user-images.githubusercontent.com/99751636/164955728-5ccae369-2a54-45a0-a878-2e7247aa2a99.png)
 * There are 1549 employees born in the year 1965 that qualify for the mentorship program.
