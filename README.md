@@ -11,19 +11,10 @@ Pewlett-Hackard has several employees that are approaching retirement. We have c
 * Over half of the reitiring staff are senior level employees.
 * Only 2 managers are projected to retire.
 ## Summary
-##### Select count(me.emp_no) as mentor_eligible,
-##### count(ut.emp_no) as retirement_eligible
-##### From mentorship_eligibilty as me
-##### Full Join unique_titles as ut
-##### on (me.emp_no = ut.emp_no);
 ![positions_to_fill](https://user-images.githubusercontent.com/99751636/164956752-b5adffe2-b794-45c8-b4df-cd86af42b07d.png)
 
 * We will need to replace 74,0007 emploees as we prepare for the "silver tsunami". That includes not only the 72,458 employees reiting, but also the 1549 employees stepping into a mentor role. 
-##### Select Count(me.title),
-##### me.title
-##### From mentorship_eligibilty as me
-##### Group By (me.title)
-##### Order By Count(me.title) DESC;
+
 ![me_count_titles](https://user-images.githubusercontent.com/99751636/164956293-cb72c82b-8b56-4195-a662-16fa09a83001.png)
 
 * HP does not look prepared to handle this oncoming wave of retirments.
